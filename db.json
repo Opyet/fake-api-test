@@ -1,7 +1,7 @@
 {
   "status": {
     "success": true,
-    "code": 200
+    "code": 200,
     "message" : "Worked fine"
   },
   "data": {
