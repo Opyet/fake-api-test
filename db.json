@@ -1,37 +1,42 @@
 {
-  "status": {
-    "success": true,
-    "code": 200,
-    "message" : "Worked fine"
+  "anotherMetric": {
+    "app": "coded"
   },
-  "data": {
-    "user": {
-      "id": "20",
-      "email": "user@mail.com",
-      "password": "password123",
-      "firstname": "UserFirstName",
-      "lastname": "UserLastName"
+  "apidata": {
+    "status": {
+      "success": true,
+      "code": 200,
+      "message" : "Worked fine"
     },
-    "transactions": [
-      {
-        "id": "1",
-        "transaction": "ANGFT025XXX19018",
-        "ordering_customer": "Blended Technology Services",
-        "beneficiary_customer": "Backlays Bank",
-        "receiver": "Standard Chartered",
-        "transaction_description": "Purchasing of toys",
-        "transaction_type": "Credit"
+    "data": {
+      "user": {
+        "id": "20",
+        "email": "user@mail.com",
+        "password": "password123",
+        "firstname": "UserFirstName",
+        "lastname": "UserLastName"
       },
-      {
-        "id": "2",
-        "transaction": "ENGYK001TVW200048",
-        "ordering_customer": "Herosd Hero Allieyyd Limited",
-        "beneficiary_customer": "Backlays Bank",
-        "receiver": "Standard Chartered",
-        "intermediary_bank": "EcoBank",
-        "transaction_description": "Transfer",
-        "transaction_type": "Credit"
-      }
-    ]
+      "transactions": [
+        {
+          "id": "1",
+          "transaction": "ANGFT025XXX19018",
+          "ordering_customer": "Blended Technology Services",
+          "beneficiary_customer": "Backlays Bank",
+          "receiver": "Standard Chartered",
+          "transaction_description": "Purchasing of toys",
+          "transaction_type": "Credit"
+        },
+        {
+          "id": "2",
+          "transaction": "ENGYK001TVW200048",
+          "ordering_customer": "Herosd Hero Allieyyd Limited",
+          "beneficiary_customer": "Backlays Bank",
+          "receiver": "Standard Chartered",
+          "intermediary_bank": "EcoBank",
+          "transaction_description": "Transfer",
+          "transaction_type": "Credit"
+        }
+      ]
+    }
   }
 }
