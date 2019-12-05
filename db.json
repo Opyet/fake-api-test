@@ -3,11 +3,7 @@
     "app": "coded"
   },
   "apidata": {
-    "status": {
-      "success": true,
-      "code": 200,
-      "message" : "Worked fine"
-    },
+    "status": "success",
     "data": {
       "user": {
         "id": "20",
