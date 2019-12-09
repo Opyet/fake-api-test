@@ -5,6 +5,7 @@
   "apidata": {
     "status": "success",
     "data": {
+      "filters":["Receiver","Ordering Customer","Beneficiary Customer","Date","Sending Country","Receiving Country"],
       "user": {
         "id": "20",
         "email": "user@mail.com",
